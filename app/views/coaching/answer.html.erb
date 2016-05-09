@@ -1,0 +1,14 @@
+<!-- <h1>Coaching#answer</h1>
+<p>Find me in app/views/coaching/answer.html.erb</p> -->
+
+  <div class="container-ask">
+    <h3><strong><%= @query %></strong></h3>
+    <h4>- You</h4>
+  </div>
+  <div class="container-answer">
+    <h3><strong><%= @coach_answer %></strong></h3>
+    <h4>- Your Coach</h4>
+  </div>
+<div class="container-question">
+  <%= link_to "Ask a new question", ask_path %>
+</div>
